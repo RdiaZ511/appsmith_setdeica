@@ -1,0 +1,6 @@
+UPDATE public."parroquias_carabobo" SET
+		"parroquia" = '{{update_form.fieldState.parroquia.isVisible ? update_form.formData.parroquia : update_form.sourceData.parroquia}}',
+		"municipio" = '{{update_form.fieldState.municipio.isVisible ? update_form.formData.municipio : update_form.sourceData.municipio}}',
+    "estado" = '{{update_form.fieldState.estado.isVisible ? update_form.formData.estado : update_form.sourceData.estado}}',
+		"geom" = '{{update_form.fieldState.geom.isVisible ? update_form.formData.geom : update_form.sourceData.geom}}'
+WHERE "gid" = {{data_table.selectedRow.gid}};
