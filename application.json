@@ -30,12 +30,8 @@
   "icon": "flight",
   "pages": [
     {
-      "id": "SETDEICA INFO",
+      "id": "Mapa Base Carabobo",
       "isDefault": true
-    },
-    {
-      "id": "Public.parroquias_carabobo",
-      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

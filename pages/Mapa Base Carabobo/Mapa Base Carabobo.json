@@ -1,23 +1,24 @@
 {
-  "gitSyncId": "6933aff051a9b9682ee39868_745abe4b-2fd9-4e81-9e54-7ec5d20dba30",
+  "gitSyncId": "6933aff051a9b9682ee39868_8e31c79e-a84f-4d4b-8eca-09f28e6b472b",
   "unpublishedPage": {
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 860,
+          "bottomRow": 670,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 900,
+          "minHeight": 1292,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 1174,
+          "rightColumn": 4896,
           "snapColumns": 64,
-          "snapRows": 125,
+          "snapRows": 124,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -26,7 +27,7 @@
         }
       }
     ],
-    "name": "Public.parroquias_carabobo",
-    "slug": "public-parroquias-carabobo"
+    "name": "Mapa Base Carabobo",
+    "slug": "mapa-base-carabobo"
   }
 }

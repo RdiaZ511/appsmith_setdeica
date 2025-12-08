@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6933aff051a9b9682ee39868_a853d15f-5f62-464e-93fd-3a2f1c17fb1e",
-  "id": "SETDEICA INFO_mapa",
+  "id": "Mapa Base Carabobo_mapa",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -24,7 +24,7 @@
     },
     "dynamicBindingPathList": [],
     "name": "mapa",
-    "pageId": "SETDEICA INFO",
+    "pageId": "Mapa Base Carabobo",
     "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": true
   }

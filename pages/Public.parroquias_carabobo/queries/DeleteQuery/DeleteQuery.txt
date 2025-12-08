@@ -1,2 +1,0 @@
-DELETE FROM public."parroquias_carabobo"
-  WHERE "gid" = {{data_table.triggeredRow.gid}};
