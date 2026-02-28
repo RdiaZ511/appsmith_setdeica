@@ -1,12 +1,12 @@
 {
-  "gitSyncId": "6933aff051a9b9682ee39868_8e31c79e-a84f-4d4b-8eca-09f28e6b472b",
+  "gitSyncId": "null_91c5ca90-043f-4951-b9a9-4ec66347d297",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 620,
+          "bottomRow": 560,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -27,7 +27,7 @@
         }
       }
     ],
-    "name": "Mapa Base Carabobo",
-    "slug": "mapa-base-carabobo"
+    "name": "Authentication",
+    "slug": "authentication"
   }
 }
