@@ -3,14 +3,10 @@
   "borderRadius": "1.5rem",
   "bottomRow": 5,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "#273790",
   "buttonVariant": "PRIMARY",
   "displayName": "Icon Button",
-  "dynamicBindingPathList": [
-    {
-      "key": "buttonColor"
-    }
-  ],
+  "dynamicBindingPathList": [],
   "dynamicTriggerPathList": [],
   "hideCard": false,
   "iconName": "lock",
