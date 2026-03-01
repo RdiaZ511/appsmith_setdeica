@@ -30,12 +30,12 @@
   "icon": "flight",
   "pages": [
     {
-      "id": "Authentication",
-      "isDefault": false
+      "id": "Autenticacion",
+      "isDefault": true
     },
     {
       "id": "Mapa Base Carabobo",
-      "isDefault": true
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

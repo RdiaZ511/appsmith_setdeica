@@ -1,9 +1,9 @@
 {
   "gitSyncId": "69a30fc86ccf20395271dfd4_da0fe547-ffec-43a9-8ba7-fed3eb067904",
-  "id": "Authentication_functions",
+  "id": "Autenticacion_functions",
   "unpublishedCollection": {
     "name": "functions",
-    "pageId": "Authentication",
+    "pageId": "Autenticacion",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "variables": [

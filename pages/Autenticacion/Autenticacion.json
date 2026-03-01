@@ -1,6 +1,7 @@
 {
   "gitSyncId": "null_91c5ca90-043f-4951-b9a9-4ec66347d297",
   "unpublishedPage": {
+    "customSlug": "",
     "isHidden": false,
     "layouts": [
       {
@@ -27,7 +28,7 @@
         }
       }
     ],
-    "name": "Authentication",
-    "slug": "authentication"
+    "name": "Autenticacion",
+    "slug": "autenticacion"
   }
 }

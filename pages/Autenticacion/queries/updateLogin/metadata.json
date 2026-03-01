@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "69a30fc86ccf20395271dfd4_cf569b89-945e-4778-9537-7dd8ce75bb9d",
-  "id": "Authentication_createUser",
+  "gitSyncId": "69a30fc86ccf20395271dfd4_4a7c51e3-8a31-4e7a-94fe-76bf47d08d3e",
+  "id": "Autenticacion_updateLogin",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO public.\"user_auth\" (\"first_name\", \"last_name\", \"email\", \"password_hash\", \"role\")\nVALUES ('{{inp_firstName.text}}', '{{inp_lastName.text}}', '{{inp_registerEmail.text}}', {{this.params.passwordHash}}, 'Admin')\nRETURNING *;\n",
+      "body": "UPDATE user_auth\n  SET last_login = {{new Date().toISOString()}}\n  WHERE id = {{ this.params.id }};\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,13 +22,9 @@
       "name": "Sample Database",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
-    "name": "createUser",
-    "pageId": "Authentication",
+    "dynamicBindingPathList": [],
+    "name": "updateLogin",
+    "pageId": "Autenticacion",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
