@@ -1,7 +1,7 @@
 {
   "appIsExample": false,
   "appLayout": {
-    "type": "TABLET"
+    "type": "DESKTOP"
   },
   "applicationDetail": {
     "appPositioning": {
@@ -30,6 +30,10 @@
   "icon": "flight",
   "pages": [
     {
+      "id": "Authentication",
+      "isDefault": false
+    },
+    {
       "id": "Autenticacion",
       "isDefault": true
     },
@@ -39,7 +43,7 @@
     }
   ],
   "unpublishedAppLayout": {
-    "type": "TABLET"
+    "type": "DESKTOP"
   },
   "unpublishedApplicationDetail": {
     "appPositioning": {

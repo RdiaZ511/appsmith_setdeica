@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "69a30fc86ccf20395271dfd4_3ab8d9d5-8106-4e63-b434-488da01e1ef2",
-  "id": "Autenticacion_findUserByEmail",
+  "gitSyncId": "69a30fc86ccf20395271dfd4_0d506412-e66f-4403-88b6-f0a6b8e26faa",
+  "id": "Authentication_findUserByEmail",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -28,7 +28,7 @@
       }
     ],
     "name": "findUserByEmail",
-    "pageId": "Autenticacion",
+    "pageId": "Authentication",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

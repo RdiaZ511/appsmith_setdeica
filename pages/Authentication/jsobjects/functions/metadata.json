@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "69a30fc86ccf20395271dfd4_433c4f64-9013-4005-a29b-2a3a68533dc7",
+  "id": "Authentication_functions",
+  "unpublishedCollection": {
+    "name": "functions",
+    "pageId": "Authentication",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "defaultTab",
+        "value": "'Sign In'"
+      }
+    ]
+  }
+}

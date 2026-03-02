@@ -1,13 +1,16 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 32,
+  "bottomRow": 56,
   "boxShadow": "none",
-  "buttonColor": "#273790",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "displayName": "Button",
   "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
     {
       "key": "borderRadius"
     }
@@ -25,27 +28,26 @@
   "isLoading": false,
   "isVisible": true,
   "key": "d80868s2dr",
-  "leftColumn": 1,
-  "onClick": "{{functions.signIn();}}",
-  "originalBottomRow": 32,
-  "originalTopRow": 26,
+  "leftColumn": 6,
+  "onClick": "{{functions.register();}}",
+  "originalBottomRow": 50,
+  "originalTopRow": 44,
   "parentColumnSpace": 18.1875,
-  "parentId": "8rq3ao3yqz",
+  "parentId": "f5yn1hxqze",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
-  "resetFormOnClick": true,
-  "rightColumn": 58,
+  "resetFormOnClick": false,
+  "rightColumn": 57,
   "searchTags": [
     "click",
     "submit"
   ],
-  "text": "E N T R A R",
-  "tooltip": "Entrar",
-  "topRow": 26,
+  "text": "SIGN UP",
+  "topRow": 50,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "voz3dh2wjt",
-  "widgetName": "btn_signIn"
+  "widgetId": "mwnderxhs9",
+  "widgetName": "btn_signUp"
 }
