@@ -1,7 +1,7 @@
 {
   "appIsExample": false,
   "appLayout": {
-    "type": "DESKTOP"
+    "type": "TABLET_LARGE"
   },
   "applicationDetail": {
     "appPositioning": {
@@ -10,11 +10,11 @@
     "navigationSetting": {
       "colorStyle": "theme",
       "logoAssetId": "",
-      "logoConfiguration": "logoAndApplicationTitle",
+      "logoConfiguration": "logoOnly",
       "navStyle": "sidebar",
       "orientation": "side",
       "position": "static",
-      "showNavbar": false,
+      "showNavbar": true,
       "showSignIn": false
     },
     "themeSetting": {
@@ -31,15 +31,19 @@
   "pages": [
     {
       "id": "Autenticacion",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Mapa Base Carabobo",
       "isDefault": false
+    },
+    {
+      "id": "Main Menu",
+      "isDefault": true
     }
   ],
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "TABLET_LARGE"
   },
   "unpublishedApplicationDetail": {
     "appPositioning": {
@@ -48,11 +52,11 @@
     "navigationSetting": {
       "colorStyle": "theme",
       "logoAssetId": "",
-      "logoConfiguration": "logoAndApplicationTitle",
+      "logoConfiguration": "logoOnly",
       "navStyle": "sidebar",
       "orientation": "side",
       "position": "static",
-      "showNavbar": false,
+      "showNavbar": true,
       "showSignIn": false
     },
     "themeSetting": {

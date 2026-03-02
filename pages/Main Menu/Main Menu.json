@@ -1,25 +1,23 @@
 {
-  "gitSyncId": "null_91c5ca90-043f-4951-b9a9-4ec66347d297",
+  "gitSyncId": "69a30fc86ccf20395271dfd4_12abf0dd-95f3-43dd-9ae7-6fd4e7c9ba2b",
   "unpublishedPage": {
-    "customSlug": "",
-    "isHidden": true,
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 650,
+          "bottomRow": 380,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1292,
+          "minHeight": 720,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 124,
+          "snapRows": 70,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -28,7 +26,7 @@
         }
       }
     ],
-    "name": "Autenticacion",
-    "slug": "autenticacion"
+    "name": "Main Menu",
+    "slug": "main-menu"
   }
 }

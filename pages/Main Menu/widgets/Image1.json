@@ -1,0 +1,39 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 16,
+  "boxShadow": "none",
+  "defaultImage": "https://github.com/RdiaZ511/appsmith_setdeica/blob/5bcdfabf9bc0743b0f0d999085fd0befc6a3fbee/LOGO_SETDEICA_NUEVO.png?raw=true",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vo6nxldxvl",
+  "leftColumn": 10,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 15,
+  "mobileRightColumn": 27,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "objectFit": "contain",
+  "parentColumnSpace": 18.46875,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 53,
+  "topRow": 0,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "17tjvvw8ts",
+  "widgetName": "Image1"
+}
