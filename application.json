@@ -30,10 +30,6 @@
   "icon": "flight",
   "pages": [
     {
-      "id": "Authentication",
-      "isDefault": false
-    },
-    {
       "id": "Autenticacion",
       "isDefault": true
     },
