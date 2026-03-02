@@ -1,14 +1,14 @@
 {
-  "animateLoading": true,
+  "animateLoading": "true/",
   "backgroundColor": "#FFFFFF",
   "borderColor": "#E0DEDE",
   "borderRadius": "0px",
   "borderWidth": "0",
-  "bottomRow": 60,
+  "bottomRow": 65,
   "boxShadow": "none",
   "children": [
     {
-      "bottomRow": 630,
+      "bottomRow": 650,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
@@ -39,7 +39,12 @@
   "containerStyle": "card",
   "displayName": "Container",
   "dynamicBindingPathList": [],
-  "dynamicHeight": "FIXED",
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "animateLoading"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "hideCard": false,
   "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
@@ -52,6 +57,8 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
+  "originalBottomRow": 60,
+  "originalTopRow": 0,
   "parentColumnSpace": 23.8125,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -63,7 +70,7 @@
     "parent",
     "group"
   ],
-  "shouldScrollContents": false,
+  "shouldScrollContents": true,
   "topRow": 0,
   "type": "CONTAINER_WIDGET",
   "version": 1,
