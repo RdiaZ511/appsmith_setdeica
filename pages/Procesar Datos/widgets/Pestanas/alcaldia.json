@@ -44,7 +44,7 @@
   "mobileRightColumn": 23,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onOptionChange": "{{fetch_infraestructura.run()}}",
+  "onOptionChange": "{{fetch_infraestructura.run();\nchart_datos_por_area.run()}}",
   "optionLabel": "name",
   "optionValue": "code",
   "parentColumnSpace": 16.375,

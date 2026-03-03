@@ -1,0 +1,17 @@
+INSERT INTO alcaldiaInfraestructura (
+    alcaldia, 
+    areaDato, 
+    gestionPor, 
+    claseDato, 
+    datoEspecifico, 
+    tipovalorDato, 
+    valorDato
+) VALUES (
+    {{alcaldia.selectedOptionValue}},
+    {{tipoDato.selectedOptionValue}},
+    {{gestionPor.selectedOptionValue}},
+    {{claseDato.selectedOptionValue}},
+    {{datoEspecifico.text}}, -- Estos siguen siendo inputs manuales
+    {{tipoValorDato.selectedOptionValue}},
+    {{valorReal.text}}       -- Estos siguen siendo inputs manuales
+);

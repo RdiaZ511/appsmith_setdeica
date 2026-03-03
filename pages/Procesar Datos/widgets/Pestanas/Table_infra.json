@@ -51,6 +51,9 @@
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "tableData"
     }
   ],
   "dynamicPropertyPathList": [
@@ -94,7 +97,7 @@
   "rightColumn": 64,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
-  "tableData": "{{fetch_infraestructura.data}",
+  "tableData": "{{fetch_infraestructura.data}}",
   "textSize": "0.875rem",
   "topRow": 29,
   "totalRecordsCount": "25",
