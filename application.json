@@ -14,7 +14,7 @@
       "navStyle": "sidebar",
       "orientation": "side",
       "position": "static",
-      "showNavbar": true,
+      "showNavbar": false,
       "showSignIn": false
     },
     "themeSetting": {
@@ -40,6 +40,10 @@
     {
       "id": "Procesar Datos",
       "isDefault": true
+    },
+    {
+      "id": "Mapa Base Carabobo Copy",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
@@ -56,7 +60,7 @@
       "navStyle": "sidebar",
       "orientation": "side",
       "position": "static",
-      "showNavbar": true,
+      "showNavbar": false,
       "showSignIn": false
     },
     "themeSetting": {

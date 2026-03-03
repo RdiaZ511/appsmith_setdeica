@@ -1,8 +1,11 @@
-SELECT areadato as "x", count(id) as "y" 
+SELECT 
+    alcaldia, 
+    COUNT(id) as total_registros,
+    -- Agrupamos algunos detalles para mostrarlos en el tooltip (hover)
+    STRING_AGG(datoEspecifico, ', ') as detalles_infraestructura 
 FROM alcaldiaInfraestructura
 WHERE
-    ( {{!alcaldia.selectedOptionValue}} OR alcaldia = {{alcaldia.selectedOptionValue}} ) AND
     ( {{!tipoDato.selectedOptionValue}} OR areaDato = {{tipoDato.selectedOptionValue}} ) AND
     ( {{!gestionPor.selectedOptionValue}} OR gestionPor = {{gestionPor.selectedOptionValue}} ) AND
     ( {{!claseDato.selectedOptionValue}} OR claseDato = {{claseDato.selectedOptionValue}} )
-GROUP BY areadato;
+GROUP BY alcaldia;

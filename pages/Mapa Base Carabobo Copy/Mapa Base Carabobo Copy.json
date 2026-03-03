@@ -1,23 +1,24 @@
 {
-  "gitSyncId": "69a30fc86ccf20395271dfd4_12abf0dd-95f3-43dd-9ae7-6fd4e7c9ba2b",
+  "gitSyncId": "69a30fc86ccf20395271dfd4_60fe4da6-90fd-4438-9440-f86d30375371",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 1220,
+          "bottomRow": 620,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 720,
+          "minHeight": 1292,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 1224,
+          "rightColumn": 4896,
           "snapColumns": 64,
-          "snapRows": 70,
+          "snapRows": 124,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -26,7 +27,7 @@
         }
       }
     ],
-    "name": "Procesar Datos",
-    "slug": "procesar-datos"
+    "name": "Mapa Base Carabobo Copy",
+    "slug": "mapa-base-carabobo-copy"
   }
 }
