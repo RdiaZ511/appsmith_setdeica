@@ -1,0 +1,10 @@
+SELECT 
+    alcaldia, 
+    COUNT(*) as total,
+    STRING_AGG(datoEspecifico, ' | ') as detalles
+FROM alcaldiaInfraestructura
+WHERE 
+    ( {{!tipoDato.selectedOptionValue}} OR areaDato = {{tipoDato.selectedOptionValue}} ) AND
+    ( {{!gestionpor.selectedOptionValue}} OR gestionPor = {{gestionPor.selectedOptionValue}} ) AND
+    ( {{!claseDato.selectedOptionValue}} OR claseDato = {{claseDato.selectedOptionValue}} )
+GROUP BY alcaldia;
