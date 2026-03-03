@@ -1,0 +1,59 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 9,
+  "boxShadow": "none",
+  "defaultOptionValue": "GREEN",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "ljymlqr3dr",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Tipo de dato",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 31,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 31,
+  "mobileRightColumn": 51,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 16.375,
+  "parentId": "e2t8h48i45",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 51,
+  "serverSideFiltering": false,
+  "sourceData": "[\n\t{\n    \"name\": \"Agua Potable\",\n    \"code\": \"01\"\n  },\n  {\n    \"name\": \"Agua Residual\",\n    \"code\": \"02\"\n  },\n\t{\n    \"name\": \"Alumbrado\",\n    \"code\": \"03\"\n  },\n  {\n    \"name\": \"Educacion\",\n    \"code\": \"04\"\n  },\n\t{\n    \"name\": \"Electricidad\",\n    \"code\": \"05\"\n  },\n\t{\n    \"name\": \"Espacios Publicos\",\n    \"code\": \"06\"\n  },\n  {\n    \"name\": \"Residuos Solidos\",\n    \"code\": \"07\"\n  },\n    {\n    \"name\": \"Salud\",\n    \"code\": \"08\"\n  },\n  {\n    \"name\": \"Seguridad\",\n    \"code\": \"09\"\n  },\n \t{\n    \"name\": \"Transporte\",\n    \"code\": \"10\"\n  },\n {\n    \"name\": \"Vialidad\",\n    \"code\": \"11\"\n  }\n}",
+  "topRow": 2,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "y3ibscoife",
+  "widgetName": "Select1"
+}

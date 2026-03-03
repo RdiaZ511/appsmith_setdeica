@@ -1,0 +1,59 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 9,
+  "boxShadow": "none",
+  "defaultOptionValue": "01",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "ns9xizvco1",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Alcaldia ",
+  "labelTextSize": "1rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 16.375,
+  "parentId": "e2t8h48i45",
+  "parentRowSpace": 10,
+  "placeholderText": "Seleccione una alcaldia",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 14,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"Valencia\",\n    \"code\": \"01\"\n  },\n  {\n    \"name\": \"Bejuma\",\n    \"code\": \"02\"\n  },\n  {\n    \"name\": \"Carlos Arvelo\",\n    \"code\": \"03\"\n  },\n\t{\n    \"name\": \"Diego Ibarra\",\n    \"code\": \"04\"\n  },\n\t{\n    \"name\": \"Guacara\",\n    \"code\": \"05\"\n  },\n\t{\n    \"name\": \"Juan Jose Mora\",\n    \"code\": \"06\"\n  },\n\t{\n    \"name\": \"Libertador\",\n    \"code\": \"07\"\n  },\n\t{\n    \"name\": \"Los Guayos\",\n    \"code\": \"08\"\n  },\n\t{\n    \"name\": \"Miranda\",\n    \"code\": \"09\"\n  },\n\t{\n    \"name\": \"Montalban\",\n    \"code\": \"10\"\n  },\n\t{\n    \"name\": \"Naguanagua\",\n    \"code\": \"11\"\n  },\n\t{\n    \"name\": \"Puerto Cabello\",\n    \"code\": \"12\"\n  },\n\t{\n    \"name\": \"San Diego\",\n    \"code\": \"13\"\n  },\n\t{\n    \"name\": \"San Joakin\",\n    \"code\": \"14\"\n  }\n]\n",
+  "topRow": 2,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "yyfsvxjs4h",
+  "widgetName": "alcaldia"
+}
