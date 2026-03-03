@@ -18,7 +18,7 @@
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
-  "firstDayOfWeek": 0,
+  "firstDayOfWeek": "0",
   "isDisabled": false,
   "isLoading": false,
   "isRequired": true,
