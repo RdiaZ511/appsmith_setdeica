@@ -5,5 +5,5 @@ WHERE
     ( {{!gestionPor.selectedOptionValue}} OR gestionPor = {{gestionPor.selectedOptionValue}} ) AND
     ( {{!claseDato.selectedOptionValue}} OR claseDato = {{claseDato.selectedOptionValue}} )
 ORDER BY id DESC
-LIMIT {{infraGrid.pageSize}}
-OFFSET {{infraGrid.pageOffset}};
+LIMIT {{Table_infra.pageSize}}
+OFFSET {{Table_infra.pageOffset}};
