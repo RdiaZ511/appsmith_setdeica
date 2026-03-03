@@ -29,7 +29,7 @@
     ],
     "name": "map_datos_carabobo",
     "pageId": "Procesar Datos",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }
