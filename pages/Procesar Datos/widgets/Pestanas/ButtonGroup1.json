@@ -20,23 +20,35 @@
       "key": "groupButtons.groupButton2.buttonColor"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "groupButtons.groupButton1.isDisabled"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton1.onClick"
     }
   ],
   "groupButtons": {
     "groupButton1": {
       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
       "buttonType": "SIMPLE",
-      "disabledWhenInvalid": false,
+      "disabledWhenInvalid": true,
       "iconName": "saved",
       "id": "groupButton1",
       "index": 0,
-      "isDisabled": false,
+      "isDisabled": "",
       "isVisible": true,
       "label": "Grabar Dato de Infraestructura",
       "menuItems": {},
+      "onClick": "{{insert_infraestructura.run().then(() => {\n  resetWidget(\"Pestanas\", true);\n  fetch_infraestructura.run();\n});}}",
       "placement": "CENTER",
       "widgetId": ""
     },
@@ -57,6 +69,7 @@
     }
   },
   "isCanvas": false,
+  "isDisabled": "",
   "isLoading": false,
   "isVisible": true,
   "key": "wx2k0drbxs",

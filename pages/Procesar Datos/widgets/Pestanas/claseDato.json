@@ -55,7 +55,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 13,
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"name\": \"Evento\",\n    \"code\": \"01\"\n  },\n  {\n    \"name\": \"Informacion\",\n    \"code\": \"02\"\n  },\n  {\n    \"name\": \"Estadistico\",\n    \"code\": \"03\"\n  }\n  {\n    \"name\": \"Ubicacion\",\n    \"code\": \"04\"\n  }\n\n]",
+  "sourceData": "[\n  {\n    \"name\": \"Evento\",\n    \"code\": \"01\"\n  },\n  {\n    \"name\": \"Informacion\",\n    \"code\": \"02\"\n  },\n  {\n    \"name\": \"Estadistico\",\n    \"code\": \"03\"\n  },\n  {\n    \"name\": \"Ubicacion\",\n    \"code\": \"04\"\n  }\n\n]",
   "topRow": 12,
   "type": "SELECT_WIDGET",
   "version": 1,
