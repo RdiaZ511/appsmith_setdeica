@@ -19,7 +19,11 @@
       "key": "sourceData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": false,
   "isLoading": false,
@@ -40,6 +44,7 @@
   "mobileRightColumn": 23,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
+  "onOptionChange": "{{fetch_infraestructura.run()}}",
   "optionLabel": "name",
   "optionValue": "code",
   "parentColumnSpace": 16.375,
