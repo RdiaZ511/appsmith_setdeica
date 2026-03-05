@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "69a30fc86ccf20395271dfd4_1e59dfef-9ce5-46da-abec-8cbbe8fa672a",
-  "id": "Procesar Datos_get_infra_stats",
+  "gitSyncId": "69a30fc86ccf20395271dfd4_4089300b-194e-4868-a051-ed6781e5e72f",
+  "id": "Procesar Datos_get_parroquias",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT \n    alcaldia, \n    COUNT(*) as total,\n    STRING_AGG(datoEspecifico, ' | ') as detalles\nFROM alcaldiaInfraestructura\nWHERE \n    ( {{!tipoDato.selectedOptionValue}} OR areaDato = {{tipoDato.selectedOptionValue}} ) AND\n    ( {{!gestionPor.selectedOptionValue}} OR gestionPor = {{gestionPor.selectedOptionValue}} ) AND\n    ( {{!claseDato.selectedOptionValue}} OR claseDato = {{claseDato.selectedOptionValue}} )\nGROUP BY alcaldia;",
+      "body": "SELECT DISTINCT parroquia AS label, parroquia as value, municipio AS municipio_id\nFROM public.\"parroquias_carabobo\" \nWHERE municipio = {{alcaldia.selectedOptionValue}};\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,7 +27,7 @@
         "key": "body"
       }
     ],
-    "name": "get_infra_stats",
+    "name": "get_parroquias",
     "pageId": "Procesar Datos",
     "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false

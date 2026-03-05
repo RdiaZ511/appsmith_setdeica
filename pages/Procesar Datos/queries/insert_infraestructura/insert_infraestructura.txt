@@ -1,11 +1,12 @@
 INSERT INTO alcaldiaInfraestructura (
-    alcaldia, 
-    areaDato, 
-    gestionPor, 
-    claseDato, 
-    datoEspecifico, 
-    tipovalorDato, 
-    valorDato
+    alcaldia,
+	  parroquia
+    areadato, 
+    gestionpor, 
+    clasedato, 
+    datoespecifico, 
+    tipovalordato, 
+    valordato
 ) VALUES (
     {{alcaldia.selectedOptionValue}},
     {{tipoDato.selectedOptionValue}},

@@ -5,6 +5,6 @@ SELECT
 FROM alcaldiaInfraestructura
 WHERE 
     ( {{!tipoDato.selectedOptionValue}} OR areaDato = {{tipoDato.selectedOptionValue}} ) AND
-    ( {{!gestionpor.selectedOptionValue}} OR gestionPor = {{gestionPor.selectedOptionValue}} ) AND
+    ( {{!gestionPor.selectedOptionValue}} OR gestionPor = {{gestionPor.selectedOptionValue}} ) AND
     ( {{!claseDato.selectedOptionValue}} OR claseDato = {{claseDato.selectedOptionValue}} )
 GROUP BY alcaldia;

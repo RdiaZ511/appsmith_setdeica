@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 9,
+  "bottomRow": 8,
   "boxShadow": "none",
   "defaultOptionValue": "0\n",
   "dynamicBindingPathList": [
@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -32,7 +35,7 @@
   "key": "ns9xizvco1",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Alcaldia ",
+  "labelText": "Municipio",
   "labelTextSize": "1rem",
   "labelWidth": 5,
   "leftColumn": 0,
@@ -44,9 +47,9 @@
   "mobileRightColumn": 23,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onOptionChange": "{{fetch_infraestructura.run();\nchart_datos_por_area.run()}}",
-  "optionLabel": "name",
-  "optionValue": "code",
+  "onOptionChange": "{{fetch_infraestructura.run();\nget_infra_stats.run();}}",
+  "optionLabel": "municipio",
+  "optionValue": "municipio_id",
   "parentColumnSpace": 16.375,
   "parentId": "e2t8h48i45",
   "parentRowSpace": 10,
@@ -55,8 +58,8 @@
   "responsiveBehavior": "fill",
   "rightColumn": 13,
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"name\": \"Valencia\",\n    \"code\": \"Valencia\"\n  },\n  {\n    \"name\": \"Bejuma\",\n    \"code\": \"Bejuma\"\n  },\n  {\n    \"name\": \"Carlos Arvelo\",\n    \"code\": \"Carlos Arvelo\"\n  },\n\t{\n    \"name\": \"Diego Ibarra\",\n    \"code\": \"Diego Ibarra\"\n  },\n\t{\n    \"name\": \"Guacara\",\n    \"code\": \"Guacara\"\n  },\n\t{\n    \"name\": \"Juan Jose Mora\",\n    \"code\": \"Juan Jose Mora\"\n  },\n\t{\n    \"name\": \"Libertador\",\n    \"code\": \"Libertador\"\n  },\n\t{\n    \"name\": \"Los Guayos\",\n    \"code\": \"Los Guayos\"\n  },\n\t{\n    \"name\": \"Miranda\",\n    \"code\": \"Miranda\"\n  },\n\t{\n    \"name\": \"Montalban\",\n    \"code\": \"Montalban\"\n  },\n\t{\n    \"name\": \"Naguanagua\",\n    \"code\": \"Naguanagua\"\n  },\n\t{\n    \"name\": \"Puerto Cabello\",\n    \"code\": \"Puerto Cabello\"\n  },\n\t{\n    \"name\": \"San Diego\",\n    \"code\": \"San Diego\"\n  },\n\t{\n    \"name\": \"San Joakin\",\n    \"code\": \"San Joakin\"\n  }\n]\n",
-  "topRow": 2,
+  "sourceData": "{{get_municipios.data}}",
+  "topRow": 1,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "yyfsvxjs4h",

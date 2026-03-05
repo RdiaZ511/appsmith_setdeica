@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6933aff051a9b9682ee39868_a853d15f-5f62-464e-93fd-3a2f1c17fb1e",
-  "id": "Mapa Base Carabobo_mapa",
+  "gitSyncId": "69a30fc86ccf20395271dfd4_68937b28-5d5f-4f84-981b-92a698bf9a48",
+  "id": "Procesar Datos_mapa",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -24,8 +24,8 @@
     },
     "dynamicBindingPathList": [],
     "name": "mapa",
-    "pageId": "Mapa Base Carabobo",
-    "runBehaviour": "AUTOMATIC",
-    "userSetOnLoad": true
+    "pageId": "Procesar Datos",
+    "runBehaviour": "MANUAL",
+    "userSetOnLoad": false
   }
 }

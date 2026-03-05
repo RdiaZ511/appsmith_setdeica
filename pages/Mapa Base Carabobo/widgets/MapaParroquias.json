@@ -17,7 +17,7 @@
       "key": "borderColor"
     }
   ],
-  "dynamicHeight": "FIXED",
+  "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [
     {
       "key": "onResetClick"
@@ -40,6 +40,8 @@
   "mobileTopRow": 3,
   "needsErrorInfo": false,
   "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "originalBottomRow": 62,
+  "originalTopRow": 1,
   "parentColumnSpace": 11.5,
   "parentId": "0",
   "parentRowSpace": 10,
