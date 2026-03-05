@@ -1,6 +1,6 @@
 INSERT INTO alcaldiaInfraestructura (
     alcaldia,
-	  parroquia
+	  parroquia,
     areadato, 
     gestionpor, 
     clasedato, 
@@ -9,6 +9,7 @@ INSERT INTO alcaldiaInfraestructura (
     valordato
 ) VALUES (
     {{alcaldia.selectedOptionValue}},
+	  {{parroquia.selectedOptionValue}},
     {{tipoDato.selectedOptionValue}},
     {{gestionPor.selectedOptionValue}},
     {{claseDato.selectedOptionValue}},

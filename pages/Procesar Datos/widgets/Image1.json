@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 16,
+  "bottomRow": 14,
   "boxShadow": "none",
   "defaultImage": "https://github.com/RdiaZ511/appsmith_setdeica/blob/5bcdfabf9bc0743b0f0d999085fd0befc6a3fbee/LOGO_SETDEICA_NUEVO.png?raw=true",
   "dynamicBindingPathList": [

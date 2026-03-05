@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO alcaldiaInfraestructura (\n    alcaldia,\n\t  parroquia\n    areadato, \n    gestionpor, \n    clasedato, \n    datoespecifico, \n    tipovalordato, \n    valordato\n) VALUES (\n    {{alcaldia.selectedOptionValue}},\n    {{tipoDato.selectedOptionValue}},\n    {{gestionPor.selectedOptionValue}},\n    {{claseDato.selectedOptionValue}},\n    {{datoEspecifico.text}}, -- Estos siguen siendo inputs manuales\n    {{tipoValorDato.selectedOptionValue}},\n    {{valorReal.text}}       -- Estos siguen siendo inputs manuales\n);",
+      "body": "INSERT INTO alcaldiaInfraestructura (\n    alcaldia,\n\t  parroquia,\n    areadato, \n    gestionpor, \n    clasedato, \n    datoespecifico, \n    tipovalordato, \n    valordato\n) VALUES (\n    {{alcaldia.selectedOptionValue}},\n\t  {{parroquia.selectedOptionValue}},\n    {{tipoDato.selectedOptionValue}},\n    {{gestionPor.selectedOptionValue}},\n    {{claseDato.selectedOptionValue}},\n    {{datoEspecifico.text}}, -- Estos siguen siendo inputs manuales\n    {{tipoValorDato.selectedOptionValue}},\n    {{valorReal.text}}       -- Estos siguen siendo inputs manuales\n);",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

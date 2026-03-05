@@ -40,11 +40,12 @@
     "clasedato",
     "datoespecifico",
     "tipovalordato",
-    "valordato"
+    "valordato",
+    "parroquia"
   ],
-  "columnUpdatedAt": 1772512363595,
+  "columnUpdatedAt": 1772744973818,
   "columnWidthMap": {
-    "datoespecifico": 685,
+    "datoespecifico": 677,
     "fechaingreso": 214
   },
   "customIsLoading": false,
@@ -94,6 +95,9 @@
     },
     {
       "key": "primaryColumns.valordato.computedValue"
+    },
+    {
+      "key": "primaryColumns.parroquia.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -349,6 +353,40 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
+    "parroquia": {
+      "alias": "parroquia",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table_infra.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"parroquia\"])) : parroquia })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "parroquia",
+      "index": 9,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "parroquia",
+      "notation": "standard",
+      "originalId": "parroquia",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
     "tipovalordato": {
       "alias": "tipovalordato",
       "allowCellWrapping": false,
@@ -419,7 +457,7 @@
   "serverSidePaginationEnabled": true,
   "tableData": "{{fetch_infraestructura.data}}",
   "textSize": "0.875rem",
-  "topRow": 38,
+  "topRow": 36,
   "totalRecordsCount": "25",
   "type": "TABLE_WIDGET_V2",
   "version": 2,
