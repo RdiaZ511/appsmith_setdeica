@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT \n    alcaldia, \n    COUNT(*) as total,\n    STRING_AGG(datoEspecifico, ' | ') as detalles\nFROM alcaldiaInfraestructura\nWHERE \n    ( {{!tipoDato.selectedOptionValue}} OR areaDato = {{tipoDato.selectedOptionValue}} ) AND\n    ( {{!gestionPor.selectedOptionValue}} OR gestionPor = {{gestionPor.selectedOptionValue}} ) AND\n    ( {{!claseDato.selectedOptionValue}} OR claseDato = {{claseDato.selectedOptionValue}} )\nGROUP BY alcaldia;",
+      "body": "SELECT \n    alcaldia, municipio,\n    COUNT(*) as total,\n    STRING_AGG(datoEspecifico, ' | ') as detalles\nFROM alcaldiaInfraestructura\nWHERE \n    ( {{!tipoDato.selectedOptionValue}} OR areaDato = {{tipoDato.selectedOptionValue}} ) AND\n    ( {{!gestionPor.selectedOptionValue}} OR gestionPor = {{gestionPor.selectedOptionValue}} ) AND\n    ( {{!claseDato.selectedOptionValue}} OR claseDato = {{claseDato.selectedOptionValue}} )\nGROUP BY alcaldia;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -29,7 +29,7 @@
     ],
     "name": "get_infra_stats",
     "pageId": "Procesar Datos",
-    "runBehaviour": "AUTOMATIC",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -1,5 +1,0 @@
-SELECT 
-    municipio,
-		parroquia,
-    ST_AsGeoJSON(geom)::json as geometry 
-FROM parroquias_carabobo; -- Ajusta al nombre de tu tabla en gisdb

@@ -1,5 +1,5 @@
 SELECT 
-    alcaldia, 
+    alcaldia, municipio,
     COUNT(*) as total,
     STRING_AGG(datoEspecifico, ' | ') as detalles
 FROM alcaldiaInfraestructura
