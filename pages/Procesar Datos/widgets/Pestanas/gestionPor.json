@@ -33,7 +33,7 @@
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelText": "Gestionado por\n",
-  "labelTextSize": "0.875rem",
+  "labelTextSize": "1rem",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
