@@ -3,7 +3,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 14,
   "boxShadow": "none",
-  "defaultImage": "https://github.com/RdiaZ511/appsmith_setdeica/blob/5bcdfabf9bc0743b0f0d999085fd0befc6a3fbee/LOGO_SETDEICA_NUEVO.png?raw=true",
+  "defaultImage": "",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
@@ -13,7 +13,7 @@
   "enableDownload": false,
   "enableRotation": false,
   "flexVerticalAlignment": "start",
-  "image": "",
+  "image": "https://github.com/RdiaZ511/RdiaZ511.github.io/blob/4dcb838687511f6c2d4bcab1706572ca0569377d/varios/LOGO_SETDEICA_NUEVO.png",
   "imageShape": "RECTANGLE",
   "isLoading": false,
   "isVisible": true,
