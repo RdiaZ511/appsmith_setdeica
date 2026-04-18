@@ -21,6 +21,9 @@
     },
     {
       "key": "groupButtons.groupButtond774sb3hix.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonbimg5gitxv.buttonColor"
     }
   ],
   "dynamicPropertyPathList": [
@@ -73,6 +76,21 @@
       "placement": "CENTER",
       "widgetId": ""
     },
+    "groupButtonbimg5gitxv": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonbimg5gitxv",
+      "index": 3,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Estadisticas",
+      "menuItems": {},
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "b3h7xv5ox7"
+    },
     "groupButtond774sb3hix": {
       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
       "buttonType": "SIMPLE",
@@ -83,7 +101,7 @@
       "isSeparator": false,
       "isVisible": true,
       "itemType": "BUTTON",
-      "label": "Actualizar Mapa",
+      "label": "Ver en Mapa",
       "menuItems": {},
       "onClick": "{{mapFunctions.refreshMap();}}",
       "placement": "CENTER",
@@ -116,5 +134,5 @@
   "type": "BUTTON_GROUP_WIDGET",
   "version": 1,
   "widgetId": "nbp81f72zz",
-  "widgetName": "grabarBorrar"
+  "widgetName": "Estados"
 }

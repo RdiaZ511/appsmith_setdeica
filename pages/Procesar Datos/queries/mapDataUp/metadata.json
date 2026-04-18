@@ -29,7 +29,7 @@
     ],
     "name": "mapDataUp",
     "pageId": "Procesar Datos",
-    "runBehaviour": "AUTOMATIC",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

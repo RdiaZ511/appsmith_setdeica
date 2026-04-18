@@ -47,7 +47,7 @@
   "mobileRightColumn": 23,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onOptionChange": "{{fetch_infraestructura.run();\nget_infra_stats.run();\nmapDataUp.run(() => {}, () => {}, {});\nmapFunctions.refreshMap();}}",
+  "onOptionChange": "{{fetch_infraestructura.run();\nget_infra_stats.run();}}",
   "optionLabel": "municipio",
   "optionValue": "municipio_id",
   "parentColumnSpace": 16.375,
