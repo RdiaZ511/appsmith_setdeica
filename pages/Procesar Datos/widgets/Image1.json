@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 14,
+  "bottomRow": 8,
   "boxShadow": "none",
   "defaultImage": "",
   "dynamicBindingPathList": [
@@ -13,7 +13,7 @@
   "enableDownload": false,
   "enableRotation": false,
   "flexVerticalAlignment": "start",
-  "image": "https://github.com/RdiaZ511/RdiaZ511.github.io/blob/4dcb838687511f6c2d4bcab1706572ca0569377d/varios/LOGO_SETDEICA_NUEVO.png",
+  "image": "https://raw.githubusercontent.com/RdiaZ511/RdiaZ511.github.io/4dcb838687511f6c2d4bcab1706572ca0569377d/varios/LOGO_SETDEICA_NUEVO.png",
   "imageShape": "RECTANGLE",
   "isLoading": false,
   "isVisible": true,

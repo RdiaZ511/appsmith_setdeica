@@ -44,6 +44,10 @@
     {
       "id": "Mapa Base Carabobo Copy",
       "isDefault": false
+    },
+    {
+      "id": "Entidades",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

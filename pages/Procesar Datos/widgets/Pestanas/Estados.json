@@ -43,6 +43,9 @@
     },
     {
       "key": "groupButtons.groupButtond774sb3hix.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonbimg5gitxv.onClick"
     }
   ],
   "groupButtons": {
@@ -87,6 +90,7 @@
       "itemType": "BUTTON",
       "label": "Estadisticas",
       "menuItems": {},
+      "onClick": "{{showModal(Modal1.name);}}",
       "placement": "CENTER",
       "variant": "filled",
       "widgetId": "b3h7xv5ox7"

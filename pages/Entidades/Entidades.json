@@ -1,23 +1,23 @@
 {
-  "gitSyncId": "69a30fc86ccf20395271dfd4_12abf0dd-95f3-43dd-9ae7-6fd4e7c9ba2b",
+  "gitSyncId": "69e3dd7d9cc69f5814780115_ef3f5bf7-66e4-4244-9e6a-4f893741d416",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 1120,
+          "bottomRow": 440,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "minHeight": 720,
+          "minHeight": 450,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
           "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 70,
+          "snapRows": 43,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Procesar Datos",
-    "slug": "procesar-datos"
+    "name": "Entidades",
+    "slug": "entidades"
   }
 }
