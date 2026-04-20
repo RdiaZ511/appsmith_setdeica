@@ -22,17 +22,18 @@
     }
   },
   "columnOrder": [
-    "codigo",
     "entidad",
-    "identificacion",
     "municipio_parroquia",
     "direccion",
+    "contacto",
+    "sector",
+    "codigo",
+    "identificacion",
     "ubicacion",
     "fecha_inicio",
     "telefono",
     "tipo_entidad",
     "tamano_entidad",
-    "contacto",
     "telefono_contacto",
     "web_entidad",
     "instagram_entidad",
@@ -45,7 +46,6 @@
     "operativa",
     "participacion_mercado",
     "materia_prima",
-    "sector",
     "customColumn1"
   ],
   "columnSizeMap": {
@@ -53,7 +53,7 @@
     "step": 62,
     "task": 245
   },
-  "columnUpdatedAt": 1776642911269,
+  "columnUpdatedAt": 1776658242897,
   "columnWidthMap": {
     "codigo": 104,
     "contacto": 264,
@@ -62,6 +62,7 @@
     "municipio_parroquia": 171
   },
   "defaultPageSize": 0,
+  "defaultSearchText": "",
   "defaultSelectedRowIndex": "0",
   "delimiter": ",",
   "derivedColumns": {
@@ -207,7 +208,7 @@
       "key": "onSort"
     }
   ],
-  "enableClientSideSearch": true,
+  "enableClientSideSearch": false,
   "enableServerSideFiltering": false,
   "hideCard": false,
   "horizontalAlignment": "LEFT",
@@ -216,7 +217,7 @@
   "isSortable": true,
   "isVisible": "true",
   "isVisibleDownload": false,
-  "isVisibleFilters": true,
+  "isVisibleFilters": false,
   "isVisiblePagination": true,
   "isVisibleSearch": true,
   "key": "zba5qel0au",
@@ -355,7 +356,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "contacto",
       "notation": "standard",
       "originalId": "contacto",
@@ -686,7 +687,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "Codigo Ubicacion",
       "notation": "standard",
       "originalId": "municipio_parroquia",
@@ -822,7 +823,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "sector",
       "notation": "standard",
       "originalId": "sector",
@@ -1074,12 +1075,12 @@
     }
   },
   "renderMode": "CANVAS",
-  "rightColumn": 64,
+  "rightColumn": 60,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
   "tableData": "{{SelectQuery.data}}",
   "textSize": "0.875rem",
-  "topRow": 6,
+  "topRow": 17,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 3,

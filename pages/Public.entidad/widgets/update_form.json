@@ -423,10 +423,10 @@
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Capacidad Produccion",
+          "label": "Capacidad en Produccion",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "capacidad_produccion",
-          "position": 19,
+          "position": 20,
           "sourceData": "N/A"
         },
         "capital_humano": {
@@ -492,7 +492,7 @@
           "label": "Contacto",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "contacto",
-          "position": 11,
+          "position": 12,
           "sourceData": "Luis Cano"
         },
         "customField1": {
@@ -593,7 +593,7 @@
           "children": {},
           "dataType": "string",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.facebook_entidad))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
+          "fieldType": "Email Input",
           "iconAlign": "left",
           "identifier": "facebook_entidad",
           "isCustomField": false,
@@ -601,10 +601,11 @@
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Facebook Entidad",
+          "label": "Correo Electronico",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "facebook_entidad",
-          "position": 16,
+          "position": 11,
+          "shouldAllowAutofill": true,
           "sourceData": ""
         },
         "fecha_inicio": {
@@ -650,7 +651,7 @@
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Identificacion",
+          "label": "Identificacion (Cedula/Rif))",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "identificacion",
           "position": 1,
@@ -675,7 +676,7 @@
           "label": "Instagram Entidad",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "instagram_entidad",
-          "position": 14,
+          "position": 15,
           "sourceData": ""
         },
         "instalada": {
@@ -693,11 +694,13 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
-          "label": "Instalada",
+          "isVisible": false,
+          "label": "% Capacidad Instalada",
           "labelTextSize": "0.875rem",
+          "maxNum": "100",
+          "minNum": "1",
           "originalIdentifier": "instalada",
-          "position": 20,
+          "position": 21,
           "sourceData": 1
         },
         "materia_prima": {
@@ -716,7 +719,7 @@
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Materia Prima",
+          "label": "Materia Prima Requerida",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "materia_prima",
           "position": 23,
@@ -752,7 +755,7 @@
           "children": {},
           "dataType": "number",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.operativa))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Number Input",
+          "fieldType": "Text Input",
           "iconAlign": "left",
           "identifier": "operativa",
           "isCustomField": false,
@@ -760,10 +763,10 @@
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Operativa",
+          "label": "% Capacidad Operativa",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "operativa",
-          "position": 21,
+          "position": 19,
           "sourceData": 1
         },
         "participacion_mercado": {
@@ -782,7 +785,7 @@
           "isRequired": false,
           "isSpellCheck": false,
           "isVisible": true,
-          "label": "Participacion Mercado",
+          "label": "% Participacion Mercado",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "participacion_mercado",
           "position": 22,
@@ -829,7 +832,7 @@
           "labelTextSize": "0.875rem",
           "options": "[\n  {\n    \"label\": \"Micro\",\n    \"value\": \"1\"\n  },\n  {\n    \"label\": \"Pequeño\",\n    \"value\": \"2\"\n  },\n  {\n    \"label\": \"Mediano\",\n    \"value\": \"3\"\n  }\n\t,\n  {\n    \"label\": \"Grande\",\n    \"value\": \"4\"\n  }\n]",
           "originalIdentifier": "tamano_entidad",
-          "position": 10,
+          "position": 9,
           "serverSideFiltering": false,
           "sourceData": "2"
         },
@@ -859,13 +862,14 @@
         "telefono_contacto": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "accessor": "telefono_contacto",
+          "allowDialCodeChange": false,
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
           "dataType": "string",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.telefono_contacto))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
+          "dialCode": "+58",
+          "fieldType": "Phone Number Input",
           "identifier": "telefono_contacto",
           "isCustomField": false,
           "isDisabled": false,
@@ -875,7 +879,7 @@
           "label": "Telefono Contacto",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "telefono_contacto",
-          "position": 12,
+          "position": 13,
           "sourceData": "+58 412 000 0000"
         },
         "tipo_entidad": {
@@ -897,7 +901,7 @@
           "labelTextSize": "0.875rem",
           "options": "[\n  {\n    \"label\": \"Publico\",\n    \"value\": \"1\"\n  },\n  {\n    \"label\": \"Privado\",\n    \"value\": \"2\"\n  },\n  {\n    \"label\": \"Mixto\",\n    \"value\": \"3\"\n  },\n  {\n    \"label\": \"Otro\",\n    \"value\": \"4\"\n  }\n\t\n]",
           "originalIdentifier": "tipo_entidad",
-          "position": 9,
+          "position": 10,
           "serverSideFiltering": false,
           "sourceData": "3"
         },
@@ -920,7 +924,7 @@
           "label": "Twitter Entidad",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "twitter_entidad",
-          "position": 15,
+          "position": 16,
           "sourceData": ""
         },
         "ubicacion": {
@@ -964,7 +968,7 @@
           "label": "Web Entidad",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "web_entidad",
-          "position": 13,
+          "position": 14,
           "sourceData": "www.jacmotors.com.ve"
         }
       },
@@ -997,7 +1001,6 @@
         "operativa": 1,
         "participacion_mercado": 5,
         "productos": "Vehículos",
-        "sector": null,
         "tamano_entidad": "2",
         "telefono": "+58 241 000 0000",
         "telefono_contacto": "+58 412 000 0000",
