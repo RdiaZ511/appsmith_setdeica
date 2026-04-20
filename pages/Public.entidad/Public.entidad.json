@@ -1,23 +1,23 @@
 {
-  "gitSyncId": "69e3dd7d9cc69f5814780115_ef3f5bf7-66e4-4244-9e6a-4f893741d416",
+  "gitSyncId": "69e3dd7d9cc69f5814780115_394a4b94-e761-4e30-b3db-09cead672c9d",
   "unpublishedPage": {
-    "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 440,
+          "bottomRow": 860,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 450,
+          "minHeight": 900,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 1224,
+          "rightColumn": 1174,
           "snapColumns": 64,
-          "snapRows": 43,
+          "snapRows": 125,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Entidades",
-    "slug": "entidades"
+    "name": "Public.entidad",
+    "slug": "public-entidad"
   }
 }

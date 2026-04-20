@@ -1,0 +1,15 @@
+UPDATE public."entidad" SET
+		"entidad" = '{{update_form.fieldState.entidad.isVisible ? update_form.formData.entidad : update_form.sourceData.entidad}}',
+		"identificacion" = '{{update_form.fieldState.identificacion.isVisible ? update_form.formData.identificacion : update_form.sourceData.identificacion}}',
+    "municipio_parroquia" = '{{update_form.fieldState.municipio_parroquia_2
+.isVisible ? update_form.formData.municipio_parroquia
+ : update_form.sourceData.municipio_parroquia}}',
+		"direccion" = '{{update_form.fieldState.direccion.isVisible ? update_form.formData.direccion : update_form.sourceData.direccion}}',
+		"ubicacion" = '{{update_form.fieldState.ubicacion.isVisible ? update_form.formData.ubicacion : update_form.sourceData.ubicacion}}',
+		"fecha_inicio" = '{{update_form.fieldState.fecha_inicio.isVisible ? update_form.formData.fecha_inicio : update_form.sourceData.fecha_inicio}}',
+		"telefono" = '{{update_form.fieldState.telefono.isVisible ? update_form.formData.telefono : update_form.sourceData.telefono}}',
+		"tipo_entidad" = '{{update_form.fieldState.tipo_entidad.isVisible ? update_form.formData.tipo_entidad : update_form.sourceData.tipo_entidad}}',
+		"tamano_entidad" = '{{update_form.fieldState.tamano_entidad.isVisible ? update_form.formData.tamano_entidad : update_form.sourceData.tamano_entidad}}',
+		"contacto" = '{{update_form.fieldState.contacto.isVisible ? update_form.formData.contacto : update_form.sourceData.contacto}}',
+		"telefono_contacto" = '{{update_form.fieldState.telefono_contacto.isVisible ? update_form.formData.telefono_contacto : update_form.sourceData.telefono_contacto}}'
+	WHERE "codigo" = {{data_table.selectedRow.codigo}};

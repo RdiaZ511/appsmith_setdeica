@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "69e3dd7d9cc69f5814780115_fc811d5f-0bf1-4c73-922a-ac2d591977b6",
-  "id": "Entidades_getAllData",
+  "gitSyncId": "69e3dd7d9cc69f5814780115_792f2a26-a140-4f60-aba1-66f691b6b160",
+  "id": "Public.entidad_Parroquias_Municipios",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.\"entidad\" LIMIT 10;",
+      "body": "SELECT TRIM(public.parroquias_carabobo.municipio)||', '||TRIM(public.parroquias_carabobo.parroquia) as label, public.parroquias_carabobo.indice as value FROM public.\"parroquias_carabobo\" order by indice;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "name": "getAllData",
-    "pageId": "Entidades",
-    "runBehaviour": "MANUAL",
-    "userSetOnLoad": false
+    "name": "Parroquias_Municipios",
+    "pageId": "Public.entidad",
+    "runBehaviour": "ON_PAGE_LOAD",
+    "userSetOnLoad": true
   }
 }
