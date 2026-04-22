@@ -5,7 +5,7 @@
   "borderColor": "#d4d4d8",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "2",
-  "bottomRow": 180,
+  "bottomRow": 183,
   "boxShadow": "none",
   "childStylesheet": {
     "button": {
@@ -1206,7 +1206,7 @@
   "serverSidePaginationEnabled": true,
   "tableData": "{{SelectQuery.data}}",
   "textSize": "0.875rem",
-  "topRow": 17,
+  "topRow": 20,
   "totalRecordsCount": "",
   "type": "TABLE_WIDGET_V2",
   "variant": "VARIANT3",
