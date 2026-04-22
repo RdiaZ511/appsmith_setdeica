@@ -32,7 +32,7 @@
     "width": "1024px"
   },
   "evaluationVersion": 2,
-  "icon": "flight",
+  "icon": "bar-graph",
   "pages": [
     {
       "id": "Mapa Base Carabobo",
@@ -48,10 +48,6 @@
     },
     {
       "id": "Public.entidad",
-      "isDefault": false
-    },
-    {
-      "id": "Menu Inicial",
       "isDefault": true
     }
   ],
