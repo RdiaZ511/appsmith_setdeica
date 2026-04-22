@@ -1,6 +1,6 @@
 {
   "borderRadius": "0px",
-  "bottomRow": 40,
+  "bottomRow": 5,
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
@@ -28,10 +28,10 @@
   "parentId": "59rw5mx0bq",
   "parentRowSpace": 10,
   "rightColumn": 52,
-  "text": "public_alcaldiainfraestructura Data",
+  "text": "Bitacora de Infraestructura de Carabobo",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 36,
+  "topRow": 1,
   "type": "TEXT_WIDGET",
   "version": 1,
   "widgetId": "urzv99hdc8",

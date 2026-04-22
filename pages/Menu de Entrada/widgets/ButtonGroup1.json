@@ -27,6 +27,9 @@
     },
     {
       "key": "groupButtons.groupButtonj0hx2thhmn.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonb2vr4ulylb.buttonColor"
     }
   ],
   "dynamicTriggerPathList": [
@@ -38,6 +41,9 @@
     },
     {
       "key": "groupButtons.groupButton3.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonb2vr4ulylb.onClick"
     }
   ],
   "groupButtons": {
@@ -80,7 +86,7 @@
       "iconAlign": "right",
       "iconName": "map",
       "id": "groupButton3",
-      "index": 3,
+      "index": 4,
       "isDisabled": false,
       "isVisible": true,
       "label": "Geolocalizacion de Eventos",
@@ -127,6 +133,24 @@
       "placement": "BETWEEN",
       "widgetId": ""
     },
+    "groupButtonb2vr4ulylb": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconAlign": "right",
+      "iconName": "history",
+      "id": "groupButtonb2vr4ulylb",
+      "index": 3,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Bitacora Infraestructura del Estado Carabobo",
+      "menuItems": {},
+      "onClick": "{{navigateTo('Public.alcaldiainfraestructura', {}, 'SAME_WINDOW');}}",
+      "placement": "BETWEEN",
+      "variant": "filled",
+      "widgetId": "0q08ilzeti"
+    },
     "groupButtonj0hx2thhmn": {
       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
       "buttonType": "SIMPLE",
@@ -150,7 +174,7 @@
       "iconAlign": "right",
       "iconName": "array-timestamp",
       "id": "groupButtonpcvuzfvj3l",
-      "index": 4,
+      "index": 5,
       "isDisabled": false,
       "isSeparator": false,
       "isVisible": true,
