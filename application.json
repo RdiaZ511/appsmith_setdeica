@@ -1,7 +1,7 @@
 {
   "appIsExample": false,
   "appLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "applicationDetail": {
     "appPositioning": {
@@ -53,10 +53,14 @@
     {
       "id": "Menu de Entrada",
       "isDefault": true
+    },
+    {
+      "id": "Public.alcaldiainfraestructura",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "unpublishedApplicationDetail": {
     "appPositioning": {
