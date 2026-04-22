@@ -39,7 +39,7 @@
     },
     {
       "id": "Procesar Datos",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Mapa Base Carabobo Copy",
@@ -47,7 +47,7 @@
     },
     {
       "id": "Public.entidad",
-      "isDefault": false
+      "isDefault": true
     }
   ],
   "unpublishedAppLayout": {
