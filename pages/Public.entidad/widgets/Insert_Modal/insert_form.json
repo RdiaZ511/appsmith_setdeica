@@ -1,9 +1,9 @@
 {
   "animateLoading": true,
-  "autoGenerateForm": true,
+  "autoGenerateForm": false,
   "backgroundColor": "#fff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 81,
+  "bottomRow": 37,
   "boxShadow": "none",
   "childStylesheet": {
     "ARRAY": {
@@ -327,6 +327,33 @@
     },
     {
       "key": "schema.__root_schema__.children.sector.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.estado.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.estado.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.estado.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.municipio.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.municipio.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.municipio.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.parroquia.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.parroquia.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.parroquia.accentColor"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -362,14 +389,14 @@
   "parentId": "9rhv3ioohq",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "resetButtonLabel": "Reset",
+  "resetButtonLabel": "Limpiar",
   "resetButtonStyles": {
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "boxShadow": "none",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "buttonVariant": "SECONDARY"
   },
-  "rightColumn": 64,
+  "rightColumn": 63,
   "schema": {
     "__root_schema__": {
       "accessor": "__root_schema__",
@@ -393,7 +420,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Capacidad Produccion",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "capacidad_produccion",
@@ -415,7 +442,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Capital Humano",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "capital_humano",
@@ -459,7 +486,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Contacto",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "contacto",
@@ -510,6 +537,27 @@
           "position": 1,
           "sourceData": "Avícola Guacara C.A."
         },
+        "estado": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "estado",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.estado))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "estado",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Estado",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "estado",
+          "position": 24
+        },
         "facebook_entidad": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
           "accessor": "facebook_entidad",
@@ -525,7 +573,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Facebook Entidad",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "facebook_entidad",
@@ -548,7 +596,7 @@
           "isCustomField": false,
           "isDisabled": false,
           "isRequired": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Fecha Inicio Actividades",
           "labelTextSize": "0.875rem",
           "maxDate": "2121-12-31T18:29:00.000Z",
@@ -596,7 +644,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Instagram Entidad",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "instagram_entidad",
@@ -609,21 +657,21 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "number",
+          "dataType": "string",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.instalada))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-          "fieldType": "Number Input",
+          "fieldType": "Text Input",
           "iconAlign": "left",
           "identifier": "instalada",
           "isCustomField": false,
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Instalada",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "instalada",
           "position": 19,
-          "sourceData": 1
+          "sourceData": "2"
         },
         "materia_prima": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -640,12 +688,33 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Materia Prima",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "materia_prima",
           "position": 22,
           "sourceData": "Aves vivas"
+        },
+        "municipio": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "municipio",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.municipio))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "municipio",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Municipio",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "municipio",
+          "position": 25
         },
         "municipio_parroquia": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -684,12 +753,33 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Operativa",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "operativa",
           "position": 20,
           "sourceData": "70"
+        },
+        "parroquia": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "accessor": "parroquia",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.parroquia))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "parroquia",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Parroquia",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "parroquia",
+          "position": 26
         },
         "participacion_mercado": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -697,21 +787,21 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "number",
+          "dataType": "string",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.participacion_mercado))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-          "fieldType": "Number Input",
+          "fieldType": "Text Input",
           "iconAlign": "left",
           "identifier": "participacion_mercado",
           "isCustomField": false,
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Participacion Mercado",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "participacion_mercado",
           "position": 21,
-          "sourceData": 15
+          "sourceData": "25"
         },
         "productos": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -728,7 +818,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Productos",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "productos",
@@ -750,7 +840,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Sector",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "sector",
@@ -772,7 +862,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Tamano Entidad",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "tamano_entidad",
@@ -795,7 +885,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Telefono",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "telefono",
@@ -817,7 +907,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Telefono Contacto",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "telefono_contacto",
@@ -838,7 +928,7 @@
           "isDisabled": false,
           "isFilterable": false,
           "isRequired": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Tipo Entidad",
           "labelTextSize": "0.875rem",
           "options": "[\n  {\n    \"label\": \"Privada\",\n    \"value\": \"1\"\n  },\n  {\n    \"label\": \"Publica\",\n    \"value\": \"2\"\n  },\n  {\n    \"label\": \"Mixta\",\n    \"value\": \"4\"\n  }\n]",
@@ -862,7 +952,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Twitter Entidad",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "twitter_entidad",
@@ -884,7 +974,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Ubicacion GPS",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "ubicacion",
@@ -906,7 +996,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": true,
+          "isVisible": false,
           "label": "Web Entidad",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "web_entidad",
@@ -934,17 +1024,17 @@
       }
     }
   },
-  "scrollContents": true,
+  "scrollContents": false,
   "showReset": true,
   "sourceData": "{{_.omit(data_table.tableData[0], \"customColumn1\", \"__primaryKey__\")}}",
-  "submitButtonLabel": "Submit",
+  "submitButtonLabel": "Grabar",
   "submitButtonStyles": {
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "boxShadow": "none",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "buttonVariant": "PRIMARY"
   },
-  "title": "Insert Row",
+  "title": "Agregar datos basicos de Entidad nueva",
   "topRow": 0,
   "type": "JSON_FORM_WIDGET",
   "version": 1,

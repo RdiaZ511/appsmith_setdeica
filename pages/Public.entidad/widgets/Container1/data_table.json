@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "allowAddNewRow": false,
   "animateLoading": true,
-  "borderColor": "#d4d4d8",
+  "borderColor": "#ebebeb",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "2",
   "bottomRow": 183,
@@ -200,6 +200,9 @@
     },
     {
       "key": "primaryColumns.customColumn1.cellBackground"
+    },
+    {
+      "key": "headerRowColor"
     }
   ],
   "dynamicPropertyPathList": [
@@ -227,7 +230,8 @@
   "enableClientSideSearch": false,
   "enableServerSideFiltering": false,
   "fontStyle": "",
-  "headerRowColor": "#dcfce7",
+  "headerRowColor": "{{appsmith.theme.colors.primaryColor}}",
+  "headerTextColor": "#ffffff",
   "hideCard": false,
   "horizontalAlignment": "LEFT",
   "iconSVG": "/static/media/icon.db8a9cbd.svg",
