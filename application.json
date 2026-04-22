@@ -27,7 +27,7 @@
   "collapseInvisibleWidgets": true,
   "color": "#CCCCCC",
   "evaluationVersion": 2,
-  "icon": "flight",
+  "icon": "bar-graph",
   "pages": [
     {
       "id": "Autenticacion",
