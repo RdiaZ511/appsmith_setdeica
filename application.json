@@ -1,7 +1,7 @@
 {
   "appIsExample": false,
   "appLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "applicationDetail": {
     "appPositioning": {
@@ -48,11 +48,15 @@
     },
     {
       "id": "Public.entidad",
+      "isDefault": false
+    },
+    {
+      "id": "Menu de Entrada",
       "isDefault": true
     }
   ],
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "unpublishedApplicationDetail": {
     "appPositioning": {
