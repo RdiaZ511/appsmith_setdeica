@@ -35,10 +35,6 @@
   "icon": "flight",
   "pages": [
     {
-      "id": "Autenticacion",
-      "isDefault": false
-    },
-    {
       "id": "Mapa Base Carabobo",
       "isDefault": false
     },
@@ -52,6 +48,10 @@
     },
     {
       "id": "Public.entidad",
+      "isDefault": false
+    },
+    {
+      "id": "Menu Inicial",
       "isDefault": true
     }
   ],
