@@ -1,6 +1,6 @@
 {
   "gitSyncId": "69e3dd7d9cc69f5814780115_bb98bc18-410a-4944-abfd-9e6c8803ab01",
-  "id": "Public.entidad_DeleteQuery",
+  "id": "Entidades Economicas_DeleteQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -28,7 +28,7 @@
       }
     ],
     "name": "DeleteQuery",
-    "pageId": "Public.entidad",
+    "pageId": "Entidades Economicas",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

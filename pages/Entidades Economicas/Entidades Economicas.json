@@ -1,6 +1,7 @@
 {
   "gitSyncId": "69e3dd7d9cc69f5814780115_394a4b94-e761-4e30-b3db-09cead672c9d",
   "unpublishedPage": {
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
@@ -26,7 +27,7 @@
         }
       }
     ],
-    "name": "Public.entidad",
-    "slug": "public-entidad"
+    "name": "Entidades Economicas",
+    "slug": "entidades-economicas"
   }
 }
