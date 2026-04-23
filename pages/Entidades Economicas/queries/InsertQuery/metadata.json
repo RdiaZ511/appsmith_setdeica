@@ -1,6 +1,6 @@
 {
   "gitSyncId": "69e3dd7d9cc69f5814780115_90358f2a-f282-4718-b3c9-b6bdc256d934",
-  "id": "Public.entidad_InsertQuery",
+  "id": "Entidades Economicas_InsertQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -28,7 +28,7 @@
       }
     ],
     "name": "InsertQuery",
-    "pageId": "Public.entidad",
+    "pageId": "Entidades Economicas",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

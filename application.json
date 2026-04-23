@@ -53,6 +53,10 @@
     {
       "id": "Menu de Entrada",
       "isDefault": true
+    }
+    {
+      "id": "Entidades Economicas",
+      "isDefault": false
     },
     {
       "id": "Public.alcaldiainfraestructura",
