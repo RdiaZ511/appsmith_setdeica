@@ -75,7 +75,7 @@
       "isVisible": true,
       "label": "Infraestructura del Estado Carabobo",
       "menuItems": {},
-      "onClick": "{{navigateTo('Procesar Datos', {}, 'SAME_WINDOW');}}",
+      "onClick": "{{navigateTo('Public.infraestructura', {}, 'SAME_WINDOW');}}",
       "placement": "BETWEEN",
       "widgetId": ""
     },
