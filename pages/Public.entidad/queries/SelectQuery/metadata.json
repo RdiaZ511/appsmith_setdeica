@@ -1,6 +1,6 @@
 {
   "gitSyncId": "69e3dd7d9cc69f5814780115_1cc15189-4f7b-4825-959b-67e87196852a",
-  "id": "Entidades Economicas_SelectQuery",
+  "id": "Public.entidad_SelectQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -28,7 +28,7 @@
       }
     ],
     "name": "SelectQuery",
-    "pageId": "Entidades Economicas",
+    "pageId": "Public.entidad",
     "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": true
   }

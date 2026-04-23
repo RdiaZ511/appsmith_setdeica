@@ -1,6 +1,6 @@
 {
   "gitSyncId": "69e3dd7d9cc69f5814780115_0d912126-45eb-4494-8e03-ae8a3ac7abe5",
-  "id": "Entidades Economicas_UpdateQuery",
+  "id": "Public.entidad_UpdateQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -28,7 +28,7 @@
       }
     ],
     "name": "UpdateQuery",
-    "pageId": "Entidades Economicas",
+    "pageId": "Public.entidad",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

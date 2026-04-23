@@ -1,6 +1,6 @@
 {
   "gitSyncId": "69e3dd7d9cc69f5814780115_792f2a26-a140-4f60-aba1-66f691b6b160",
-  "id": "Entidades Economicas_Parroquias_Municipios",
+  "id": "Public.entidad_Parroquias_Municipios",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -24,7 +24,7 @@
     },
     "dynamicBindingPathList": [],
     "name": "Parroquias_Municipios",
-    "pageId": "Entidades Economicas",
+    "pageId": "Public.entidad",
     "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }
