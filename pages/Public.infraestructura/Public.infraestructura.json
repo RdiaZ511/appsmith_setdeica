@@ -1,23 +1,23 @@
 {
-  "gitSyncId": "69e84d1fa53e16cc30232f62_4e3ec06e-32b6-4c4e-8874-1d7332557acd",
+  "gitSyncId": "69a30fc86ccf20395271dfd4_12abf0dd-95f3-43dd-9ae7-6fd4e7c9ba2b",
   "unpublishedPage": {
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 1100,
+          "bottomRow": 820,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 900,
+          "minHeight": 720,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 1174,
+          "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 125,
+          "snapRows": 70,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Public.alcaldiainfraestructura",
-    "slug": "public-alcaldiainfraestructura"
+    "name": "Public.infraestructura",
+    "slug": "public-infraestructura"
   }
 }
